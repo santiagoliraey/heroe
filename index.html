@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <meta name="keywords" content="jQuery, plugin, cycle, rotate, slide, fade, animate">
+    <meta name="author" content="Ry Racherbaumer">
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/bootstrap-responsive.css">
+    <link rel="stylesheet" href="js/google-code-prettify/prettify.css">
+    <title>buk</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/agency.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <link rel="stylesheet" href="src/looper.css">
+
+</head>
+
+<body id="page-top" class="index">
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-default navbar-fixed-top encabezado">
+        <div style="margin-left:25px;margin-right:10px">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header page-scroll">
+                <img src="img\logo.png" class="img-responsive logo" alt "">
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <div class="intro-text">
+                <div class="intro-lead-in">Las personas son tu pricipal activo</div>
+                <div class="intro-heading">RRHH para humanos</div>
+                <a href="#demo_form" class="page-scroll btn btn-xl">Solicita tu demo</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Club Section -->
+    <section id="services">
+        <div>
+            <div class="row text-center">
+                <div class="col-md-4 borde-derecha">
+                    <h4 class="service-heading">GESTIONA</h4>
+                    <p class="text-muted">Maneja y actualiza tu nomina<br>Con la plataforma mas moderna y amigable</p>
+                </div>
+                <div class="col-md-4 borde-derecha">
+                    <h4 class="service-heading">INFORMATE</h4>
+                    <p class="text-muted">Haz un Seguimiento constante al rendimiento de tu personal<br>Reportes detallados en tiempo real</p>
+                </div>
+                <div class="col-md-4">
+                    <h4 class="service-heading">CUIDA TU TALENTO</h4>
+                    <p class="text-muted">Realiza gestión en RRHH<br>Encuestas, capacitaciones y evaluaciones.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section class="carrusel">
+
+        <div id="bulletLooper" data-interval="0" data-looper="go" class="looper slide" tabindex="0">
+            <div class="looper-inner">
+                <div class="item active">
+                    <img class="imagen" src="img\dashboard.png" alt="">
+                </div>
+                <div class="item">
+                    <img class="imagen" src="img\perfil.png" alt="">
+                </div>
+                <div class="item">
+                    <img class="imagen" src="img\empleados.png" alt="">
+                </div>
+                <div class="item">
+                    <img class="imagen" src="img\division.png" alt="">
+                </div>
+            </div>
+            <nav>
+                <a class="looper-control left" data-looper="prev" href="#bulletLooper">
+                    <i style="font-size:20px" class="fa fa-chevron-left" aria-hidden="true"></i>
+                </a>
+                <a class="looper-control right" data-looper="next" href="#bulletLooper">
+                    <i style="font-size:20px" class="fa fa-chevron-right" aria-hidden="true"></i>
+                </a>
+                <ul class="looper-nav">
+                    <li class=""><a href="#bulletLooper" data-looper="to" data-args="1">•</a></li>
+                    <li class=""><a href="#bulletLooper" data-looper="to" data-args="2">•</a></li>
+                    <li class=""><a href="#bulletLooper" data-looper="to" data-args="3">•</a></li>
+                    <li class=""><a href="#bulletLooper" data-looper="to" data-args="4">•</a></li>
+                </ul>
+            </nav>
+        </div>
+            <div class="row">
+                <div class="form-group col-md-12 text-center">
+                    <h2>buk: la plataforma mas moderna y amigable</h2>
+                </div>
+            </div>
+    </section>
+
+    <section id="caracteristicas">
+        <div>
+            <div class="row text-center">
+                <div class="col-md-4 grupo_iconos">
+                    <h2 class="icon"><i class="fa fa-play-circle" aria-hidden="true"></i></h2>
+                    <h4 class="service-heading">IMPLEMENTACION</h4>
+                    <p class="text-muted">Implementación y capacitación<br>en menos de un mes.</p>
+                </div>
+                <div class="col-md-4 grupo_iconos">
+                    <h2 class="icon"><i class="fa fa-cloud" aria-hidden="true"></i></h2>
+                    <h4 class="service-heading">100% CLOUD</h4>
+                    <p class="text-muted">Ingresa de cualquier lugar.<br>Mejoras automaticas.</p>
+                </div>
+                <div class="col-md-4 grupo_iconos">
+                    <h2 class="icon"><i class="fa fa-lock" aria-hidden="true"></i></h2>
+                    <h4 class="service-heading">PERMISOS</h4>
+                    <p class="text-muted">Personaliza tus permisos.<br>Ultima tecnologia en seguridad.</p>
+                </div>
+                <div class="col-md-4 grupo_iconos">
+                    <h2 class="icon"><i class="fa fa-user" aria-hidden="true"></i></h2>
+                    <h4 class="service-heading">PERFIL</h4>
+                    <p class="text-muted">Cada trabajador ingresa a su perfil.<br>Toda su informacion en un solo lugar.</p>
+                </div>
+                <div class="col-md-4 grupo_iconos">
+                    <h2 class="icon"><i class="fa fa-calendar" aria-hidden="true"></i></i></h2>
+                    <h4 class="service-heading">ASISTENCIA Y VACACIONES</h4>
+                    <p class="text-muted">Maneja la asistencia directo de la plataforma<br>sin necesidad de llevar mas planillas.</p>
+                </div>
+                <div class="col-md-4 grupo_iconos">
+                    <h2 class="icon"><i class="fa fa-money" aria-hidden="true"></i></h2>
+                    <h4 class="service-heading">BONOS, DESCUENTOS Y CREDITOS</h4>
+                    <p class="text-muted">Manejo facil y transparente<br>de todos los pagos y descuentos.</p>
+                </div>
+                <div class="col-md-4 grupo_iconos">
+                    <h2 class="icon"><i class="fa fa-line-chart" aria-hidden="true"></i></h2>
+                    <h4 class="service-heading">REPORTES</h4>
+                    <p class="text-muted">Analiza la gestión en RRHH.<br>Datós de rotación, asistencia y gastos.</p>
+                </div>
+                <div class="col-md-4 grupo_iconos">
+                    <h2 class="icon"><i class="fa fa-print" aria-hidden="true"></i></h2>
+                    <h4 class="service-heading">LIQUIDACIONES</h4>
+                    <p class="text-muted">Descarga las liquidaciones en pdf<br>en menos de un minuto.</p>
+                </div>
+                <div class="col-md-4 grupo_iconos">
+                    <h2 class="icon"><i class="fa fa-file-excel-o" aria-hidden="true"></i></i></h2>
+                    <h4 class="service-heading">PLANILLAS</h4>
+                    <p class="text-muted">Descarga los datos que tu necesites.<br>Planillas de Previred y Banco en un click.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="demo_form">
+        <div class="row col-md-offset-3">
+            <div class="col-md-8">
+            <div class="form-group col-md-12 text-center">
+                <h2>Solicita tu demo</h2>
+            </div>
+            <form>
+                <div class="form-group col-md-6">
+                    <label for="example-text-input">Nombre</label>
+                    <input class="form-control" type="text" id="example-text-input">
+                </div>
+                <div class="form-group col-md-6">
+                    <label for="example-text-input">Apellido</label>
+                    <input class="form-control" type="text" id="example-text-input">
+                </div>
+                <div class="form-group col-md-6">
+                    <label for="exampleInputEmail1">Email*</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                </div>
+                <div class="form-group col-md-6">
+                    <label for="example-tel-input">Telefono</label>
+                    <input class="form-control" type="tel" id="example-tel-input">
+                </div>
+                <div class="form-group col-md-6">
+                    <label for="example-text-input">Nombre Empresa</label>
+                    <input class="form-control" type="text"id="example-text-input">
+                </div>
+                <div class="form-group col-md-6">
+                    <label for="exampleSelect1">Número de Empleados</label>
+                    <select class="form-control" id="exampleSelect1">
+                        <option>Seleccionar cantidad</option>
+                        <option>1-10</option>
+                        <option>10-50</option>
+                        <option>50-100</option>
+                        <option>100-200</option>
+                        <option>200-500</option>
+                        <option>500-1000</option>
+                        <option>1000+</option>
+                    </select>
+                </div>
+                <div class="col-md-12 text-center">
+                    <button type="submit" class="btn btn-primary submit">Solicitalo!</button>
+                </div>
+            </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2></h2>
+                    <h3 class="contacto">Contactanos</h3>
+                    <h3 class="phone-email">buk@gmail.com</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="js/jquery-1.8.3.min.js"></script>
+    <script src="js/bootstrap-scrollspy.js"></script>
+    <script src="js/bootstrap-affix.js"></script>
+    <script src="js/bootstrap-tab.js"></script>
+    <script src="js/google-code-prettify/prettify.js"></script>
+    <script src="src/looper.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/modernizr.min.js"></script>    
+    <script>
+        jQuery(function($){
+            $('#bulletLooper').on('shown', function(e){
+                $('.looper-nav > li', this)
+                        .removeClass('active')
+                        .eq(e.relatedIndex)
+                            .addClass('active');
+            });
+        });
+    </script>
+    
+</body>
+
+</html>
+
