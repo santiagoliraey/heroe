@@ -53,7 +53,7 @@ h1,h2,h3,h4,h5,h6{font-family:Montserrat,"Helvetica Neue",Helvetica,Arial,sans-s
 .navbar-nav>.active>a{border-radius:0;color:#fff;background-color:#fed136}
 .navbar-default 
 .navbar-nav>.active>a:hover,.navbar-default 
-.navbar-nav>.active>a:focus{color:#fff;background-color:#fec503}@media (min-width:768px){.navbar-default{background-color:transparent;padding:25px 0;-webkit-transition:padding .3s;-moz-transition:padding .3s;transition:padding .3s;border:0}
+.navbar-nav>.active>a:focus{color:#fff;background-color:transparent}@media (min-width:768px){.navbar-default{background-color:transparent;padding:25px 0;-webkit-transition:padding .3s;-moz-transition:padding .3s;transition:padding .3s;border:0}
 .navbar-default 
 .navbar-brand{font-size:2em;-webkit-transition:all .3s;-moz-transition:all .3s;transition:all .3s}
 .navbar-default 
@@ -84,12 +84,10 @@ section#contact{;background-position:center;background-repeat:no-repeat}section#
 .copyright{line-height:40px;font-family:Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;text-transform:uppercase;text-transform:none}footer ul
 .quicklinks{margin-bottom:0;line-height:40px;font-family:Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;text-transform:uppercase;text-transform:none}ul
 .social-buttons{margin-bottom:0}ul.social-buttons li a{display:block;background-color:#222;height:40px;width:40px;border-radius:100%;font-size:20px;line-height:40px;color:#fff;outline:0;-webkit-transition:all .3s;-moz-transition:all .3s;transition:all .3s}ul.social-buttons li a:hover,ul.social-buttons li a:focus,ul.social-buttons li a:active{background-color:#fed136}.btn:focus,.btn:active,.btn.active,.btn:active:focus{outline:0}
-.logo {max-width: 100px}
+.logo {max-width: 100px;display:inline-block;}
 .phone-email{color: grey;font-family:Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;text-transform:uppercase;font-size:10px;margin-top:10}
 .timeline-title{margin-bottom: 40px}
-.login {
-  margin-right:40px
-}
+
 .contacto{color: #056095;font-family:Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;text-transform:uppercase;font-size:10px}
 .encabezado{
 	margin-bottom: 0;
@@ -107,4 +105,5 @@ section#contact{;background-position:center;background-repeat:no-repeat}section#
 .submit{margin: 30px}
 #demo_form{background-color:#F2F5F8}
 .looper-nav{padding-bottom: 10px}
-.login{position:absolute;right:0px;}
+.login{float:right}
+.texto-header{margin-top: 150px}
